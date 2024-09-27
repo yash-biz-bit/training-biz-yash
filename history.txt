@@ -1,0 +1,187 @@
+exit
+sudo adduser Yash_New
+sudo passwd Yash_New
+exit
+sudo su -
+exit
+userdel Yash_New
+sudo userdel Yash_New
+su Yash_New
+sudo su Yash_New
+cd ..
+ls
+cd Yash_New
+sudo cd Yash_New
+rm Yash_New
+rmdir Yash_New
+sudo rm -r Yash_New
+ls
+cd ~
+pwd
+clear
+exit
+useradd yash_new
+sudo useradd yash_new
+sudo passwd yash_new
+sudo su
+ls -a
+sudo su
+sudo vi /etc/ssh/sshd_config
+sudo yum update
+sudo yum install wget
+sudo yum install java-17-openjdk-devel
+ wget https://pkgs.sysadmins.ws/el9/base/x86_64/compat-openssl10-1.0.2u-1.el9.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+sudo yum -y localinstall compat-openssl10-1.0.2u-1.el9.x86_64.rpm 
+sudo yum -y localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+ sudo yum -y localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+ls /opt/
+vi ./.bash_profile
+source ./.bash_profile
+sudo yum install tmux -y
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo /etc/init.d/oracle-xe-21c configure
+sudo service oracle-xe-21c start
+sqlplus
+su -oracle
+sudo su - oracle
+su
+cd~
+cd ~
+ls
+mkdir .ssh
+ls 
+-ls -a
+ls -a
+cd ssh
+cd .ssh
+ls
+cd authorized_keys 
+vi authorized_keys 
+ssh keygen -t rsa
+ssh -keygen -t rsa
+ssh-keygen -t rsa
+cd authorized_keys 
+vi authorized_keys 
+exit
+ls
+ls -a
+cd .ssh
+ls
+vi authorized_keys 
+exit\
+sys as sys
+sqlplus
+sudo service oracle-xe-21c start
+sqlplus sys as sysdba/iamyash
+sudo /etc/init.d/oracle-xe-21c configure
+sudo service oracle-xe-21c start
+sqlplus
+lsnrctl status
+sudo service oracle-xe-21c start
+sqlplus
+cat ./.bash_profile 
+sudo service oracle-xe-21c start
+cat ./.bash_profile 
+sudo su
+ls /opt/
+cd $ORACLE_HOME/bin
+ls
+deinstall
+cd ..
+ls
+cd deinstall/
+bash deinstall
+sudo bash deinstall
+deinstall
+ls
+bash deinstall
+cd
+rm -rf /opt/oracle/
+sudo rm -rf /opt/oracle/
+ls /opt/
+sudo rm -rf /opt/ORCLfmap
+ls
+ls ../
+sudo rm -rf ../oracle
+ls ../
+sudo yum localinstall compat-openssl10-1.0.2u-1.el9.x86_64.rpm 
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+ls /opt/
+sqlplus
+sudo yum uninstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo yum remove oracle-xe-21c
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo yum remove oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum remove oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo /etc/init.d/oracle-xe-21c delete
+sudo yum remove oracle-database-xe-21c
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo /etc/init.d/oracle-xe-21c configure
+sudo service oracle-xe-21c start
+sqlplus
+echo $ORACLE_HOME
+ls /opt/
+sudo su oracle
+cd $ORACLE_HOME/bin
+ls
+ls -ltr oracle
+cd /etc/init.d/
+ls
+cd
+sqlplus
+sqlplus / as sysdba
+cd $ORACLE_HOME/deinstall
+sudo su oracle
+sudo yum remove oracle-xe-21c
+sudo yum remove oracle-database-xe-21c
+ls /opt/
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo /etc/init.d/oracle-xe-21c configure
+sudo service oracle-xe-21c start
+sqlplus
+sqlplus classicmodels/classicmodels123
+cat ./.bash_profile 
+sudo service oracle-xe-21c start
+lsnrctl
+clear
+cd $ORACLE_HOME/bin
+ls
+lsnrctl
+lsnrctl status
+sqlplus classicmodels/classicmodels123
+cd
+sudo yum install git
+git clone https://github.com/yash-biz-bit/training-biz-yash.git
+cd
+ls
+cd training-biz-yash/
+cd ..
+touch push_history.sh
+ls
+vi push_history.sh 
+chmod +x ~/training-biz-yash/push_history.sh
+chmod +x push_history.sh
+crontab -ecrontab -e
+ls
+rm push_history.sh 
+ls
+cd training-biz-yash
+touch push_history.sh
+vi push_history.sh 
+ls
+chmod +x ~/training-biz-yash/push_history.sh
+crontab -e
+crontab -l
+cd ..
+ssh-keygen -t rsa -b 4096 -C "salunkheyash11@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+ls
+cd .ssh
+ls
+cat id_rsa.pub 
